@@ -7,3 +7,7 @@ Micro is meant to be a simple, basic unit testing framework.  It's useful for sm
 ## Using Grunt
 
     $ npm install
+    $ grunt
+
+
+
