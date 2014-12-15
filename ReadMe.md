@@ -34,7 +34,7 @@ Here is an example of how to write a simple test suite with three tests:
 
 The call to _micro.register_ registers your test suite.  The functions of that registered object are considered tests if they begin with _Given_
 
-Test's _must_ begin with the word _Given_.
+**Tests _must_ begin with the word _Given_.**
 
 ### Asserts
 
@@ -51,7 +51,7 @@ I wanted micro so I could have a no-fuss unit testing framework, but if you want
     $ npm install
     $ grunt
 
-That should install the dependencies and run jshint, and uglify.  Once the commands finish, you will have a minified _micro.min.js_ file in the _build_ directory (~1.7K).
+That will install the dependencies and run _jshint_, and _uglify_.  Once the commands finish, you will have a minified _micro.min.js_ file in the _build_ directory (~1.7K).
 
 **Note** You do not need to do this.  Setting up _npm_ and _grunt_ can be a pain in the arse.  You can use the _src/micro.js_ file directly if you don't want the hassle.
 
