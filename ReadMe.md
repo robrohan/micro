@@ -14,6 +14,22 @@ There are just three steps to using micro:
 
 You can use the _index.html_ file included with micro as an example.  It is important to include _micro.js_ before your individual test files.
 
+    <html>
+    <head>
+        <title>µ</title>
+    </head>
+    <body>
+        <h1>µ</h1>
+        <h2>Open the console for test results</h2>
+    
+        <script src="src/micro.js" encoding="utf8"></script>
+        <script src="test/micro_test.js" encoding="utf8"></script>
+        <script>micro.run();</script>
+    </body>
+    </html>
+
+After micro and your tests are included, calling _micro.run()_ will run all the registered test suites.  To view the tests, their output, and any stack traces view the browsers console.
+
 ### Create Unit test files
 
 Here is an example of how to write a simple test suite with three tests:
