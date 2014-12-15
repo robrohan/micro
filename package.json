@@ -1,6 +1,9 @@
 {
     "name": "micro",
-    "repository": "",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/robrohan/micro.git"
+    },
     "version": "0.1.0",
     "devDependencies": {
         "grunt": "~0.4.5",
